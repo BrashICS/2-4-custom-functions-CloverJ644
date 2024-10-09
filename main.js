@@ -39,6 +39,18 @@ let roll_int = Math.ceil((Math.random()*6)+(Math.random()*6)+(Math.random()*6))
 let roll_wis = Math.ceil((Math.random()*6)+(Math.random()*6)+(Math.random()*6))
 let roll_cha = Math.ceil((Math.random()*6)+(Math.random()*6)+(Math.random()*6))
 
-let roll_stats = console.log(`Your stats are
-    STR: ${roll_str} DEX: ${roll_dex} CON: ${roll_con}
-    INT: ${roll_int} WIS: ${roll_wis} CHA: ${roll_cha}`)
+console.log(`Your stats are
+STR: ${roll_str} DEX: ${roll_dex} CON: ${roll_con}
+INT: ${roll_int} WIS: ${roll_wis} CHA: ${roll_cha}`)
+
+console.log("Here is a random result from every common die used in Dungeons & Dragons!")
+let flip_coin = Math.ceil(Math.random()*2)
+let roll_d4 = Math.ceil(Math.random()*4)
+let roll_d8 = Math.ceil(Math.random()*8)
+let roll_d12 = Math.ceil(Math.random()*12)
+let roll_d20 = Math.ceil(Math.random()*20)
+let roll_d100 = Math.ceil(Math.random()*100)
+
+console.log(`Your rolls are...
+coin/d2: ${flip_coin} d4: ${roll_d4} d6: ${roll_d6} d8: ${roll_d8}
+d10: ${roll_d10} d12: ${roll_d12} d20: ${roll_d20} d100: ${roll_d100}`)
