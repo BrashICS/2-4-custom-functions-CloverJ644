@@ -30,12 +30,12 @@ console.log(`${to_celsius}° Fahrenheit is equal to ${Math.round((to_celsius-32)
 
 // Rolling stats!
 console.log("Here are your stats using the 'roll 3d6' method!")
-let roll_str = Math.ceil((Math.random()*6)+(Math.random()*6)+(Math.random()*6))
-let roll_dex = Math.ceil((Math.random()*6)+(Math.random()*6)+(Math.random()*6))
-let roll_con = Math.ceil((Math.random()*6)+(Math.random()*6)+(Math.random()*6))
-let roll_int = Math.ceil((Math.random()*6)+(Math.random()*6)+(Math.random()*6))
-let roll_wis = Math.ceil((Math.random()*6)+(Math.random()*6)+(Math.random()*6))
-let roll_cha = Math.ceil((Math.random()*6)+(Math.random()*6)+(Math.random()*6))
+let roll_str = ((Math.ceil(Math.random()*6))+(Math.ceil(Math.random()*6))(Math.ceil(Math.random()*6)))
+let roll_dex = ((Math.ceil(Math.random()*6))+(Math.ceil(Math.random()*6))(Math.ceil(Math.random()*6)))
+let roll_con = ((Math.ceil(Math.random()*6))+(Math.ceil(Math.random()*6))(Math.ceil(Math.random()*6)))
+let roll_int = ((Math.ceil(Math.random()*6))+(Math.ceil(Math.random()*6))(Math.ceil(Math.random()*6)))
+let roll_wis = ((Math.ceil(Math.random()*6))+(Math.ceil(Math.random()*6))(Math.ceil(Math.random()*6)))
+let roll_cha = ((Math.ceil(Math.random()*6))+(Math.ceil(Math.random()*6))(Math.ceil(Math.random()*6)))
 // There's probably a better way of doing this... But this is what I've got for now
 // Wish I knew how to do 4d6 drop lowest... :(
 
